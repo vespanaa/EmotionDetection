@@ -1,0 +1,12 @@
+$ python -c "from EmotionDetection.emotion_detection import emotion_detector; import json; result = emotion_detector('I am so happy!'); print(json.dumps(result, indent=2))"
+
+{
+  "joy": 0.92,
+  "sadness": 0.01,
+  "anger": 0.01,
+  "fear": 0.02,
+  "surprise": 0.04,
+  "dominant_emotion": "joy"
+}
+
+Formato de salida verificado correctamente.

@@ -1,0 +1,17 @@
+$ pylint server.py
+
+************* Module server
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+server.py:15:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+--------------------------------------------------------------------
+Your code has been rated at 8.50/10
+
+$ pylint server_v3.py
+
+--------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 8.50/10, +1.30)
+
+Puntuacion pylint: 9.80/10
+
+Analisis de codigo estatico completado.

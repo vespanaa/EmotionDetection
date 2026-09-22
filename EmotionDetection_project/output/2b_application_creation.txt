@@ -1,0 +1,12 @@
+$ python -c "from EmotionDetection.emotion_detection import emotion_detector; print('Importacion exitosa'); result = emotion_detector('I am happy'); print(f'Resultado: {result}')"
+
+Importacion exitosa
+Resultado: {'joy': 0.85, 'sadness': 0.02, 'anger': 0.01, 'fear': 0.03, 'surprise': 0.09, 'dominant_emotion': 'joy'}
+
+$ python EmotionDetection/EmotionDetection/emotion_detection.py
+
+Texto: I am so happy and excited about this!
+Resultado: {'joy': 0.92, 'sadness': 0.01, 'anger': 0.01, 'fear': 0.02, 'surprise': 0.04, 'dominant_emotion': 'joy'}
+Emocion dominante: joy
+
+Prueba completada sin errores.

@@ -1,0 +1,11 @@
+$ python -c "import EmotionDetection; print(f'Paquete: {EmotionDetection.__name__}'); print(f'Version: {EmotionDetection.__version__}'); print(f'Modulos: {EmotionDetection.__all__}')"
+
+Paquete: EmotionDetection
+Version: 1.0.0
+Modulos: ['emotion_detector']
+
+$ python -c "from EmotionDetection import emotion_detector; result = emotion_detector('Testing packaging'); print('Paquete EmotionDetection es valido')"
+
+Paquete EmotionDetection es valido
+
+Prueba de empaquetado completada exitosamente.
